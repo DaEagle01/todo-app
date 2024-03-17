@@ -1,10 +1,12 @@
-import { Button } from 'antd';
+import Todo from "./pages/todo/Todo"
+
+
 
 function App() {
 
   return (
     <>
-      <Button type="primary">Button</Button>
+      <Todo />
     </>
   )
 }
